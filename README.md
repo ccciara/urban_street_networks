@@ -1,5 +1,5 @@
 # Evaluating Urban Accessibility: Comparative Representations of Street Network Topology Using GNNs
-This project aimed to create information-dense embeddings of street network patterns through supervised and unsupervised GNNs, and compare their accuracy against traditional street network measurements (average nodal degree) in predicting qualities of their internal environment. 
+This project aimed to create information-dense embeddings of street network patterns through supervised and unsupervised GNNs, and compare their accuracy against traditional street network measurements (average nodal degree) in predicting qualities of their internal environment - in this case, amenity accessibility.
 
 ## Data
 Data consisted of street networks of Medium Super Output Areas (MSOAs) within urban and suburban areas of England. Each street network graph was paired with a value representing the number of amenities (schools, shops, etc) within 15 minutes walk for internal residents. Rural areas were identified with the Spatial Signature dataset by Urban Grammar Project, which used satellite imagery to label UK environment types, and dropped from the dataset. Although I analysed all of England, we'll focus on just a few cities in data visualisations to show more detail. Here's the ground truth for amenity accessibility in four major cities.
